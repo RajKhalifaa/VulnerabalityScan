@@ -1,0 +1,2 @@
+Vulnerabilty Scanner
+The script scans a target IP address for open ports from a predefined list (21, 22, 25, 80, 110, 443, 445). It retrieves service banners from these ports, if available, and checks them against a file containing known vulnerable banners. If a match is found, it prints a message indicating the service might be vulnerable. This helps identify potentially vulnerable services running on the target system.
